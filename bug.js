@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to open a URL in a different app.  If the external app doesn't handle the URL correctly, or if there's an issue with the URL itself, the Expo app might crash or freeze.  Specifically, the `Linking.openURLAsync` function might fail silently without providing sufficient error information to debug effectively.
